@@ -1,0 +1,25 @@
+memory/
+DREAMS.md
+
+
+# Exclude workspace documentation
+/SKILLS_DESIGN.md
+
+# Exclude memory directory
+/memory/
+
+# Exclude specific skills
+/skills/4geeks-breathecode/
+/skills/diario-aprendizaje/
+/skills/notas-reunion/
+
+# Protect credentials and databases
+.token_4geeks
+.env
+.env.*
+secrets/
+env.vars
+*.sqlite
+*.sqlite3
+*.db
+
